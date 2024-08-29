@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --corBackground: #f5f5f5;
+    --gruvboxEscuro: #282828;
+    --verdeAndroid: #3dda84;
+    --gruvboxMenosEscuro: #3c3836;
+    --backgroundVerde: #7ce08e;
+    ---cinzinha: #dedede;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--corBackground);
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(---cinzinha);
+}
+
+header > * {
+    background-color: var(--gruvboxEscuro);
+}
+
+#titulo {
+    color: white;
+    padding-top: 15px;
+    font-size: 3em;
+    font-family: "Roboto" monospace;
+    text-align: center;
+    font-weight: 300;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: white;
+    border: 5px;
+}
+
+#linha {
+    display: block;
+    background-color: var(--verdeAndroid);
+    width: 100%;
+    height: 5px;
+}
+
+nav {
+    background-color: var(--gruvboxMenosEscuro);
+    height: 30px;
+}
+
+nav > * {
+    background-color: var(--gruvboxMenosEscuro);
+    padding: 5px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+    font: bolder monospace;
+    text-decoration: none;
+}
+
+nav > *:hover {
+    background-color: var(--verdeAndroid);
+}
+
+main {
+    text-indent: 20px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: var(--corBackground);
+}
+
+main > h1 {
+    font-size: 3em;
+    font-family: "Roboto" monospace;
+    font-weight: 300;
+    text-align: left;
+    text-indent: 0px;
+    padding: 10px;
+}
+
+main > h2 {
+    text-align: left;
+    text-indent: 0px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    font-family: "Roboto", monospace;
+}
+
+main > p {
+    font-family: "Open Sans", sans-serif;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#imgpequena {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+a.link {
+    text-decoration: none;
+    color: green;
+}
+
+#video {
+    padding: 10px;
+    background-color: var(--verdeAndroid);
+    position: relative;
+    padding-bottom: 55%;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--gruvboxMenosEscuro);
+    border-color: var(--verdeAndroid);
+    margin: 20px;
+}
+
+aside > p {
+    padding: 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+.extra > * {
+    color: var(--corBackground);
+    background-color: var(--gruvboxMenosEscuro);
+    margin: 7px;
+}
+
+.lado {
+    flex: 1;
+    padding: 20px;
+}
+
+.contato {
+    background-color: var(--gruvboxEscuro);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#git {
+    background-color: var(--gruvboxEscuro);
+}
+
+footer {
+    padding: 5px;
+    border-style: solid;
+    border-color: var(--verdeAndroid);
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
