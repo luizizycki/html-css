@@ -7,5 +7,6 @@ Android: https://luizizycki.github.io/html-css/Android/index.html
 
 Blog: https://luizizycki.github.io/html-css/Blog/index.html
 
-Clone netflix: https://luizizycki.github.io/html-css/Blog/index.html
+Clone netflix: https://luizizycki.github.io/html-css/netflix/index.html
+
 
