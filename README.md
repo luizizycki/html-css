@@ -1,5 +1,5 @@
 # html-css
-Sites criados com HTML e CSS
+Sites criados com HTML, CSS e JS
 
 Hospedado com o github pages:
 
