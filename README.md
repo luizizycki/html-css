@@ -1,12 +1,12 @@
-# html-css-JS
+# html-css-js
 Sites criados com HTML, CSS e JS
 
 Hospedado com o github pages:
 
-Android: https://luizizycki.github.io/html-css/Android/index.html
+Android: https://luizizycki.github.io/html-css-js/Android/index.html
 
-Blog: https://luizizycki.github.io/html-css/Blog/index.html
+Blog: https://luizizycki.github.io/html-css-js/Blog/index.html
 
-Clone netflix: https://luizizycki.github.io/html-css/netflix/index.html
+Clone netflix: https://luizizycki.github.io/html-css-js/netflix/index.html
 
 
