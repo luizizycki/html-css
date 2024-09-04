@@ -1,4 +1,4 @@
-# html-css
+# html-css-JS
 Sites criados com HTML, CSS e JS
 
 Hospedado com o github pages:
