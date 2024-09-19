@@ -9,4 +9,5 @@ Blog: https://luizizycki.github.io/html-css-js/Blog/index.html
 
 Clone netflix: https://luizizycki.github.io/html-css-js/netflix/index.html
 
+Calculadora: https://luizizycki.github.io/ftec/calculadora/index.html
 
